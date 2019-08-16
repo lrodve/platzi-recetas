@@ -61,7 +61,7 @@ main {
   display: grid;
   grid-gap: 20px;
   padding: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
 }
 .recipe {
   border-radius: 6px;

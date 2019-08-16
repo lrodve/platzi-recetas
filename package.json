@@ -1,7 +1,9 @@
 {
   "name": "platzi-recetas",
   "version": "0.1.0",
-  "private": true,
+  "description": "",
+  "autor":"Luis Miguel Rodriguez | @lrodve",
+  "license":"MIT", 
   "dependencies": {
     "react": "16.9.0",
     "react-dom": "16.9.0",
@@ -12,7 +14,7 @@
   },
   "scripts": {
     "dev": "react-scripts start",
-    "start": "serve ./build -s -p ${PORT:-4000}",
+    "start": "serve -s build -l 4000",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
