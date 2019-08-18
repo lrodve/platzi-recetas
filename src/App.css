@@ -205,6 +205,17 @@ main {
   text-align: center;
   font-size: 1.2em;
 }
+
+.btn-share{
+  padding: 10px 15px;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  background-color: #fbfbfb;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+}
 .Loader{
   height: calc(100vh - 62px);
   display: flex;
